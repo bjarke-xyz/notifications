@@ -1,0 +1,11 @@
+name = "notifications"
+main = "src/index.ts"
+compatibility_date = "2022-05-21"
+
+kv_namespaces = [
+    { binding = "KV_NOTIFICATIONS", id = "a69dbcbb1ce245988d45788ec89ca375", preview_id = "eedbfa0f6c0a473b9afa110713d4a328" }
+]
+
+services = [
+    {binding = "SERVICE_AUTH", service = "auth", environment = "production"}
+]
